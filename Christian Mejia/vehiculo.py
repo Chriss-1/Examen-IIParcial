@@ -7,8 +7,9 @@ class Vehiculo:
     """ Clase donde se generan los vehiculos """ 
     horas = 0
     
-    def __init__(self,placa,marca,modelo,tipo,):
+    def __init__(self,placa,marca,modelo,tipo):
         """ Asigna los valores al vehiculo """
+        self.estado = True
         self.placa = placa
         self.marca = marca
         self.modelo = modelo
