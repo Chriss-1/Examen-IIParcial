@@ -76,5 +76,19 @@ class Parqueo:
 
     def reporte_vehiculos(self):
         """ Imprime el reporte de los vehiculos ingresados y egresados """
-            
+        print("****Vehiculos Ingresados****")
+        for x in range(len(self.vehiculos_ingresados)):
+            print("\n")
+            print("Placa del vehiculo: ",self.vehiculos_ingresados[x].placa)
+            print("Marca del vehiculo: ",self.vehiculos_ingresados[x].marca)
+            print("Hora de ingreso: ",self.vehiculos_ingresados[x].hora_entrada)
+
+        print("****Vehiculos que salieron****")
+        for x in range(len(self.vehiculos_ingresados)):
+            if self.vehiculos_ingresados[x].estado == False:
+                print("\n")
+                print("Placa del vehiculo: ",self.vehiculos_ingresados[x].placa)
+                print("Marca del vehiculo: ",self.vehiculos_ingresados[x].marca)
+                print("Hora de ingreso: ",self.vehiculos_ingresados[x].hora_entrada)
+                print("Hora de salida: ",self.vehiculos_ingresados[x].hora_salida)
             
