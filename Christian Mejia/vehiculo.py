@@ -16,5 +16,6 @@ class Vehiculo:
         self.tipo = tipo
         self.hora_entrada = datetime.now()
         horas = random.randint(1,6)
+        self.total_horas = horas
         self.hora_salida = datetime.now() + timedelta(horas)
 
