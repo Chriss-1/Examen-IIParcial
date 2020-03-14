@@ -1,5 +1,5 @@
 # -*- coding = utf8 -*-
-# Repositorio: 
+# Repositorio: https://github.com/Chriss-1/Examen-IIParcial.git
 # Autor: Christian Mejia
 # Fecha: 13/03/20
 
